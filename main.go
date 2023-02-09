@@ -13,5 +13,5 @@ func main() {
 		log.Fatal("Error loading .env file")
 	}
 
-	messenger.Consume(context.Background())
+	messenger.Work_RemoveSchedulesFrom(context.Background())
 }
